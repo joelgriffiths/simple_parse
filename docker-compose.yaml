@@ -1,0 +1,12 @@
+version: "3"
+services:
+  convex-evaluation:
+    environment:
+      PYTHONUNBUFFERED: "1"
+      PYTHONIOENCODING: "UTF-8"
+    build:
+      context: .
+    container_name: convex_simple_parse
+    image: joelgriffiths/converse_simple_parse:0.0.1
+    stdin_open: true
+    tty: true

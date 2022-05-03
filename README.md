@@ -1,5 +1,11 @@
 ### Convex coding exercise
 
+# Running the code
+    docker-compose build
+    docker-compose run --rm convex-evaluation
+
+
+# Initial Instructions
 Attached, find the file `events.csv`, which contains a log of events with an
 associated customer\_id and timestamp.
 
@@ -18,5 +24,5 @@ We expect this exercise to take 1-3 hours.
 
 
 # Considerations
-- All in memoory. Only 15M, so it's not bad to read the whole thing in
-- One hour buckets? Is that referencing the the data? Is each line a 1 hour bucket, or do I round to the nearest hour
+- All in memory. Only 15M, so it's not bad to read the whole thing in.
+- One hour buckets? Is that referencing the data? Is each line a 1 hour bucket, or do I round to the nearest hour
