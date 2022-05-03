@@ -1,8 +1,8 @@
-### Convex coding exercise
+### Coding exercise
 
 # Running the code
     docker-compose build
-    docker-compose run --rm convex-evaluation
+    docker-compose run --rm simple-parse
 
 
 # Initial Instructions

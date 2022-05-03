@@ -1,6 +1,6 @@
 version: "3"
 services:
-  convex-evaluation:
+  simple-parse:
     environment:
       PYTHONUNBUFFERED: "1"
       PYTHONIOENCODING: "UTF-8"
